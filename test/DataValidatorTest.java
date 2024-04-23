@@ -22,6 +22,7 @@ class DataValidatorTest {
         String phoneNumber = "+2348100786268";
         boolean isPhoneNumberValid = DataValidator.isPhoneNumberValid(phoneNumber);
         assertTrue((isPhoneNumberValid));
+
     }
 
     @Test
