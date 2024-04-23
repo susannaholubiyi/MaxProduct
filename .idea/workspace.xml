@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReverseSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ReverseSentenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter14And15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maxProduct.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirectoryStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/DirectoryStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/File.java" afterDir="false" />
-    </list>
+    <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +145,7 @@
       <workItem from="1713514925861" duration="15992000" />
       <workItem from="1713625044157" duration="53000" />
       <workItem from="1713861733908" duration="8090000" />
-      <workItem from="1713876757347" duration="11905000" />
+      <workItem from="1713876757347" duration="12301000" />
     </task>
     <servers />
   </component>

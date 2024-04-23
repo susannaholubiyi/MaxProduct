@@ -1,5 +1,6 @@
+package chapter14And15;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ReverseSentence {
@@ -10,12 +11,12 @@ public class ReverseSentence {
         StringBuilder seperatedWord = new StringBuilder();
 
         splitSentence(sentenceToChars, seperatedSentence, seperatedWord);
-        String reversedSentence = "";
+        StringBuilder reversedSentence = new StringBuilder();
         for (int index2 = seperatedSentence.size() - 1; index2 >= 0; index2--){
-            reversedSentence += (seperatedSentence.get(index2)) + " ";
+            reversedSentence.append(seperatedSentence.get(index2)).append(" ");
         }
 
-        return reversedSentence.stripTrailing();
+        return reversedSentence.toString().stripTrailing();
     }
 
     private static void splitSentence(char[] sentenceToChars, List<String> seperatedSentence, StringBuilder seperatedWord) {
