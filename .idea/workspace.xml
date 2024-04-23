@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DirectoryStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ReverseSentenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxproduct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter14And15.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter14And15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maxProduct.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DirectoryStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/DirectoryStreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/File.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,23 +75,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DirectoryStreamExample">
+  <component name="RunManager" selected="JUnit.ReverseSentenceTest.functionCanReverseSentenceTest">
     <configuration name="DirectoryStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DirectoryStreamExample" />
-      <module name="chapter14And15" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.DirectoryStreamExample" />
+      <module name="maxProduct" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="File" />
-      <module name="chapter14And15" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.File" />
+      <module name="maxProduct" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DataValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter14And15" />
+      <module name="maxProduct" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -96,18 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataValidatorTest.validateEmailAddressTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter14And15" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
-      <option name="METHOD_NAME" value="validateEmailAddressTest4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DataValidatorTest.validateEmailAddressTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter14And15" />
+      <module name="maxProduct" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
       <option name="METHOD_NAME" value="validateEmailAddressTest5" />
@@ -116,14 +109,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseSentenceTest.functionCanReverseSentenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maxProduct" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReverseSentenceTest" />
+      <option name="METHOD_NAME" value="functionCanReverseSentenceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="chapter14And15" />
+      <module name="maxProduct" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="chapter14And15" />
+      <module name="maxProduct" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReverseSentenceTest.functionCanReverseSentenceTest" />
         <item itemvalue="Application.DirectoryStreamExample" />
         <item itemvalue="Application.File" />
         <item itemvalue="JUnit.DataValidatorTest" />
         <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest5" />
-        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +153,7 @@
       <workItem from="1713514925861" duration="15992000" />
       <workItem from="1713625044157" duration="53000" />
       <workItem from="1713861733908" duration="8090000" />
-      <workItem from="1713876757347" duration="2883000" />
+      <workItem from="1713876757347" duration="11905000" />
     </task>
     <servers />
   </component>
