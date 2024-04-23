@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DataValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DataValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DataValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,22 +70,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DataValidatorTest.validateEmailAddressTest2">
+  <component name="RunManager" selected="JUnit.DataValidatorTest">
     <configuration name="DataValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxproduct" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataValidatorTest.validateEmailAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maxproduct" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
-      <option name="METHOD_NAME" value="validateEmailAddressTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,21 +90,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataValidatorTest.validatePhoneNumberIsNotEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataValidatorTest.validateEmailAddressTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxproduct" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
-      <option name="METHOD_NAME" value="validatePhoneNumberIsNotEmptyTest" />
+      <option name="METHOD_NAME" value="validateEmailAddressTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataValidatorTest.validatePhoneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataValidatorTest.validateEmailAddressTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxproduct" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
-      <option name="METHOD_NAME" value="validatePhoneNumberTest" />
+      <option name="METHOD_NAME" value="validateEmailAddressTest4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataValidatorTest.validateEmailAddressTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maxproduct" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
+      <option name="METHOD_NAME" value="validateEmailAddressTest5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest2" />
-        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest" />
         <item itemvalue="JUnit.DataValidatorTest" />
-        <item itemvalue="JUnit.DataValidatorTest.validatePhoneNumberIsNotEmptyTest" />
-        <item itemvalue="JUnit.DataValidatorTest.validatePhoneNumberTest" />
+        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest5" />
+        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest4" />
+        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest3" />
+        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,7 @@
       <updated>1713514923682</updated>
       <workItem from="1713514925861" duration="15992000" />
       <workItem from="1713625044157" duration="53000" />
-      <workItem from="1713861733908" duration="5945000" />
+      <workItem from="1713861733908" duration="6247000" />
     </task>
     <servers />
   </component>
