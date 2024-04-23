@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="" />
+    <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter14And15/PositionOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/chapter14And15/PositionOfNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxProduct.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,30 +37,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/user/Desktop/maxproduct/test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/user/Desktop/maxproduct/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/user/Desktop/maxproduct/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/user/Desktop/maxproduct/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test" />
@@ -64,10 +70,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="chapter14And15" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseSentenceTest.functionCanReverseSentenceTest">
+  <component name="RunManager" selected="JUnit.PositionOfNumbersTest.functionReturnsPositionOfNumbersTest">
     <configuration name="DirectoryStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter14And15.DirectoryStreamExample" />
       <module name="maxProduct" />
@@ -91,11 +98,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataValidatorTest.validateEmailAddressTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositionOfNumbersTest.functionReturnsPositionOfNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxProduct" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
-      <option name="METHOD_NAME" value="validateEmailAddressTest5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter14And15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter14And15" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.PositionOfNumbersTest" />
+      <option name="METHOD_NAME" value="functionReturnsPositionOfNumbersTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,8 +116,8 @@
     </configuration>
     <configuration name="ReverseSentenceTest.functionCanReverseSentenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxProduct" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReverseSentenceTest" />
+      <option name="PACKAGE_NAME" value="chapter14And15Test" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15Test.ReverseSentenceTest" />
       <option name="METHOD_NAME" value="functionCanReverseSentenceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -126,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PositionOfNumbersTest.functionReturnsPositionOfNumbersTest" />
         <item itemvalue="JUnit.ReverseSentenceTest.functionCanReverseSentenceTest" />
         <item itemvalue="Application.DirectoryStreamExample" />
         <item itemvalue="Application.File" />
         <item itemvalue="JUnit.DataValidatorTest" />
-        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest5" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +158,7 @@
       <workItem from="1713514925861" duration="15992000" />
       <workItem from="1713625044157" duration="53000" />
       <workItem from="1713861733908" duration="8090000" />
-      <workItem from="1713876757347" duration="12301000" />
+      <workItem from="1713876757347" duration="19859000" />
     </task>
     <servers />
   </component>
