@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maxproduct.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RearrangeZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MaxProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/RearrangeZerosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DataValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +17,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2fJMqHQXRiGgrvU8WPXgtPMEjys" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -42,29 +36,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/user/Desktop/maxproduct/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "/home/user/Desktop/maxproduct/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/Desktop/maxproduct/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/user/Desktop/maxproduct/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test" />
@@ -76,51 +71,51 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MaxProductTest">
-    <configuration name="MaxProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DataValidatorTest.validateEmailAddressTest2">
+    <configuration name="DataValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxproduct" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MaxProductTest" />
+      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductTest.functionReturnsMaximumProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataValidatorTest.validateEmailAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxproduct" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MaxProductTest" />
-      <option name="METHOD_NAME" value="functionReturnsMaximumProductTest" />
+      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
+      <option name="METHOD_NAME" value="validateEmailAddressTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductTest.functionReturnsProductOfTwoNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataValidatorTest.validateEmailAddressTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxproduct" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MaxProductTest" />
-      <option name="METHOD_NAME" value="functionReturnsProductOfTwoNumbersTest" />
+      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
+      <option name="METHOD_NAME" value="validateEmailAddressTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductTest.functionReturnsSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataValidatorTest.validatePhoneNumberIsNotEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxproduct" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MaxProductTest" />
-      <option name="METHOD_NAME" value="functionReturnsSortedArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
+      <option name="METHOD_NAME" value="validatePhoneNumberIsNotEmptyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductTest.functionReturnsZerohenArrayLengthIsOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataValidatorTest.validatePhoneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxproduct" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MaxProductTest" />
-      <option name="METHOD_NAME" value="functionReturnsZerohenArrayLengthIsOneTest" />
+      <option name="MAIN_CLASS_NAME" value="DataValidatorTest" />
+      <option name="METHOD_NAME" value="validatePhoneNumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MaxProductTest" />
-        <item itemvalue="JUnit.MaxProductTest.functionReturnsProductOfTwoNumbersTest" />
-        <item itemvalue="JUnit.MaxProductTest.functionReturnsZerohenArrayLengthIsOneTest" />
-        <item itemvalue="JUnit.MaxProductTest.functionReturnsMaximumProductTest" />
-        <item itemvalue="JUnit.MaxProductTest.functionReturnsSortedArrayTest" />
+        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest2" />
+        <item itemvalue="JUnit.DataValidatorTest.validateEmailAddressTest" />
+        <item itemvalue="JUnit.DataValidatorTest" />
+        <item itemvalue="JUnit.DataValidatorTest.validatePhoneNumberIsNotEmptyTest" />
+        <item itemvalue="JUnit.DataValidatorTest.validatePhoneNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +139,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713514923682</updated>
-      <workItem from="1713514925861" duration="13658000" />
+      <workItem from="1713514925861" duration="15992000" />
+      <workItem from="1713625044157" duration="53000" />
+      <workItem from="1713861733908" duration="5945000" />
     </task>
     <servers />
   </component>
