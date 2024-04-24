@@ -1,5 +1,6 @@
-package chapter14And15;
+package chapter14And15Test;
 
+import chapter14And15.PositionOfNumbers;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

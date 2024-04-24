@@ -1,7 +1,6 @@
 package chapter14And15;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class PositionOfNumbers {
     public int[] getPosition(int[] numbers) {
@@ -18,6 +17,7 @@ public class PositionOfNumbers {
         return output;
 
     }
+
 
     public static int[] getSortedInt(int[] numbers) {
         for(int index = 0; index < numbers.length; index++){
