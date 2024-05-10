@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter14And15/Pangram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chapter14And15Test/PangramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter16/Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsonSerialization/JsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsonSerialization/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsonSerialization/Sex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jsonSerialization/JsonSerializerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter14And15/PositionOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/PositionOfNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/chapter14And15/PositionOfNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/chapter14And15Test/PositionOfNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxProduct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maxProduct.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,13 +56,16 @@
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/user/Desktop/maxproduct/test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/Downloads/extracted/jackson-datatype-jsr310-2.17.1.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/home/user/Desktop/maxproduct/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -71,21 +77,53 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="jsonSerialization" />
       <recent name="chapter14And15" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PangramTest.functionChecksIfSentenceIsAPangramTest">
-    <configuration name="DirectoryStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter14And15.DirectoryStreamExample" />
+  <component name="RunManager" selected="Application.Collections">
+    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.Collections" />
       <module name="maxProduct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter14And15.File" />
+    <configuration name="JsonSerializerTest.testDeserializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxProduct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jsonSerialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jsonSerialization" />
+      <option name="MAIN_CLASS_NAME" value="jsonSerialization.JsonSerializerTest" />
+      <option name="METHOD_NAME" value="testDeserializer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonSerializerTest.testSerializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maxProduct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jsonSerialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jsonSerialization" />
+      <option name="MAIN_CLASS_NAME" value="jsonSerialization.JsonSerializerTest" />
+      <option name="METHOD_NAME" value="testSerializer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,23 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseSentenceTest.functionCanReverseSentenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maxProduct" />
-      <option name="PACKAGE_NAME" value="chapter14And15Test" />
-      <option name="MAIN_CLASS_NAME" value="chapter14And15Test.ReverseSentenceTest" />
-      <option name="METHOD_NAME" value="functionCanReverseSentenceTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collections" />
+        <item itemvalue="JUnit.JsonSerializerTest.testSerializer" />
+        <item itemvalue="JUnit.JsonSerializerTest.testDeserializer" />
         <item itemvalue="JUnit.PangramTest.functionChecksIfSentenceIsAPangramTest" />
         <item itemvalue="JUnit.PositionOfNumbersTest.functionReturnsPositionOfNumbersTest" />
-        <item itemvalue="JUnit.ReverseSentenceTest.functionCanReverseSentenceTest" />
-        <item itemvalue="Application.DirectoryStreamExample" />
-        <item itemvalue="Application.File" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +183,13 @@
       <workItem from="1713861733908" duration="8090000" />
       <workItem from="1713876757347" duration="21604000" />
       <workItem from="1713957588037" duration="594000" />
-      <workItem from="1713980792275" duration="3897000" />
+      <workItem from="1713980792275" duration="4633000" />
+      <workItem from="1714043202493" duration="21000" />
+      <workItem from="1714046617112" duration="1140000" />
+      <workItem from="1714986087047" duration="8618000" />
+      <workItem from="1715259361217" duration="328000" />
+      <workItem from="1715333900092" duration="132000" />
+      <workItem from="1715336174521" duration="1057000" />
     </task>
     <servers />
   </component>
@@ -169,6 +203,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/jsonSerialization/JsonSerializerTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
