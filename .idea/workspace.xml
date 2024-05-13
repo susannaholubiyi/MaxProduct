@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter16/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsonSerialization/JsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsonSerialization/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsonSerialization/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/jsonSerialization/JsonSerializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/JsonTransactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/textFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/chapter14And15/transactionFile/JsonTransactionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxProduct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maxProduct.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter14And15/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/File.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -77,18 +77,19 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="chapter14And15.transactionFile" />
       <recent name="jsonSerialization" />
       <recent name="chapter14And15" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collections">
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter16.Collections" />
+  <component name="RunManager" selected="JUnit.JsonTransactionsTest.countNumberOfVowelInTextTest">
+    <configuration name="JsonTransactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactions" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter16.*" />
+          <option name="PATTERN" value="chapter14And15.transactionFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,65 +97,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonSerializerTest.testDeserializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonTransactionsTest.countNumberOfDigitsInTextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jsonSerialization.*" />
+          <option name="PATTERN" value="chapter14And15.transactionFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jsonSerialization" />
-      <option name="MAIN_CLASS_NAME" value="jsonSerialization.JsonSerializerTest" />
-      <option name="METHOD_NAME" value="testDeserializer" />
+      <option name="PACKAGE_NAME" value="chapter14And15.transactionFile" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactionsTest" />
+      <option name="METHOD_NAME" value="countNumberOfDigitsInTextTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonSerializerTest.testSerializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonTransactionsTest.countNumberOfVowelInTextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jsonSerialization.*" />
+          <option name="PATTERN" value="chapter14And15.transactionFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jsonSerialization" />
-      <option name="MAIN_CLASS_NAME" value="jsonSerialization.JsonSerializerTest" />
-      <option name="METHOD_NAME" value="testSerializer" />
+      <option name="PACKAGE_NAME" value="chapter14And15.transactionFile" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactionsTest" />
+      <option name="METHOD_NAME" value="countNumberOfVowelInTextTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PangramTest.functionChecksIfSentenceIsAPangramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonTransactionsTest.testTotalTransactionAmountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter14And15Test.*" />
+          <option name="PATTERN" value="chapter14And15.transactionFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter14And15Test" />
-      <option name="MAIN_CLASS_NAME" value="chapter14And15Test.PangramTest" />
-      <option name="METHOD_NAME" value="functionChecksIfSentenceIsAPangramTest" />
+      <option name="PACKAGE_NAME" value="chapter14And15.transactionFile" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactionsTest" />
+      <option name="METHOD_NAME" value="testTotalTransactionAmountTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionOfNumbersTest.functionReturnsPositionOfNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonTransactionsTest.transactionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter14And15Test.*" />
+          <option name="PATTERN" value="chapter14And15.transactionFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter14And15Test" />
-      <option name="MAIN_CLASS_NAME" value="chapter14And15Test.PositionOfNumbersTest" />
-      <option name="METHOD_NAME" value="functionReturnsPositionOfNumbersTest" />
+      <option name="PACKAGE_NAME" value="chapter14And15.transactionFile" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactionsTest" />
+      <option name="METHOD_NAME" value="transactionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Collections" />
-        <item itemvalue="JUnit.JsonSerializerTest.testSerializer" />
-        <item itemvalue="JUnit.JsonSerializerTest.testDeserializer" />
-        <item itemvalue="JUnit.PangramTest.functionChecksIfSentenceIsAPangramTest" />
-        <item itemvalue="JUnit.PositionOfNumbersTest.functionReturnsPositionOfNumbersTest" />
+        <item itemvalue="JUnit.JsonTransactionsTest.countNumberOfVowelInTextTest" />
+        <item itemvalue="JUnit.JsonTransactionsTest.countNumberOfDigitsInTextTest" />
+        <item itemvalue="JUnit.JsonTransactionsTest.testTotalTransactionAmountTest" />
+        <item itemvalue="Application.JsonTransactions" />
+        <item itemvalue="JUnit.JsonTransactionsTest.transactionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +191,8 @@
       <workItem from="1715259361217" duration="328000" />
       <workItem from="1715333900092" duration="132000" />
       <workItem from="1715336174521" duration="1057000" />
+      <workItem from="1715340095337" duration="590000" />
+      <workItem from="1715590734620" duration="16385000" />
     </task>
     <servers />
   </component>

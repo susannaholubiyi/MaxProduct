@@ -14,8 +14,8 @@ public class File {
             Path path = Paths.get("/home/user/Desktop/maxproduct/src/chapter14And15/sample.txt");
             System.out.println(path.getRoot());
 //        step 2
-           // Files.createFile(path);
-            Files.deleteIfExists(path);
+            Files.createFile(path);
+            //Files.deleteIfExists(path);
         }catch (IOException e){
             e.printStackTrace();
         }
