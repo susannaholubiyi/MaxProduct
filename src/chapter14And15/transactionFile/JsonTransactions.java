@@ -1,17 +1,16 @@
 package chapter14And15.transactionFile;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.BufferedWriter;
-import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 
 public class JsonTransactions {
-    public static void main(String[] args) throws IOException {
-    }
 
     public static String convertObjectToJson(Transaction transaction){
         try {
@@ -25,21 +24,19 @@ public class JsonTransactions {
         }
 
     }
-    public static void addJsonObjectTo(String filePath, Transaction transaction) throws IOException {
+    public static void addJsonObjectTo(String filePath, List<Transaction> transactions) throws IOException {
         Path path = Paths.get(filePath);
         ObjectMapper mapper = new ObjectMapper();
         BufferedWriter writer = Files.newBufferedWriter(path);
-        mapper.writeValue(writer, transaction);
+        mapper.writeValue(writer, transactions);
         writer.close();
     }
     public static double getTotalTransactionAmount(String filePath){
         double total = 0.0;
         try{
             Path path = Paths.get(filePath);
-            String files = Files.readString(path);
-            Transaction[] json = deserializeTransaction(files);
 
-
+            var json = deserializeTransaction(path);
             for(Transaction transaction : json){
                     total += transaction.getAmount();
             }
@@ -48,9 +45,11 @@ public class JsonTransactions {
         }
         return total;
     }
-    public static Transaction[] deserializeTransaction(String json) throws JsonProcessingException {
+    public static List<Transaction> deserializeTransaction(Path path) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        return mapper.readValue(json, Transaction[].class);
+        var reader = Files.newBufferedReader(path);
+        return mapper.readValue(reader, new TypeReference<List<Transaction>>() {
+        });
     }
 
     public static int getNumberOfDigits(String filePath) throws  IOException{
@@ -71,6 +70,17 @@ public class JsonTransactions {
         int numberOfVowels = 0;
         for (Character character: sentence.toCharArray()){
             if (character.toString().matches("\\b[^\\saeiouAEIOU]*[aeiouAEIOU]")){
+                numberOfVowels++;
+            }
+        }
+        return numberOfVowels;
+    }
+    public static int getNumberOfSentences(String file) throws  IOException{
+        Path path = Paths.get(file);
+        String sentence = Files.readString(path);
+        int numberOfVowels = 0;
+        for (Character character: sentence.toCharArray()){
+            if (character.toString().matches("(.+[\\.|\\?|\\.|\\:])|.+((\\.)\")")){
                 numberOfVowels++;
             }
         }

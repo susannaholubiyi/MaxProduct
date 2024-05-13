@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.time.LocalDate;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -22,13 +23,12 @@ class JsonTransactionsTest {
     }
     @Test
     public void testTotalTransactionAmountTest() throws IOException {
-        String filePath = "/home/user/Desktop/maxproduct/src/chapter14And15/transactionFile/transactions.json";
+        String filePath = "/home/user/Desktop/maxproduct/src/chapter14And15/transactionFile/transaction.json";
         Transaction transaction = new Transaction();
         transaction.setName("john doe");
         transaction.setAmount(2000.00);
         transaction.setType(Type.DEBIT);
         transaction.setDate(LocalDate.parse("2024-05-01"));
-        JsonTransactions.addJsonObjectTo(filePath, transaction);
 
         Transaction transaction2 = new Transaction();
         transaction2.setId(transaction2.getId());
@@ -37,9 +37,10 @@ class JsonTransactionsTest {
         transaction2.setAmount(5000.00);
         transaction2.setType(Type.CREDIT);
         transaction2.setDate(LocalDate.parse("2024-05-01"));
-        JsonTransactions.addJsonObjectTo(filePath, transaction2);
+        List<Transaction> transactions = List.of(transaction, transaction2);
+        JsonTransactions.addJsonObjectTo(filePath, transactions);
 
-        double expected = 3000.00;
+        double expected = 7000.00;
         assertEquals(expected, JsonTransactions.getTotalTransactionAmount(filePath));
 
     }
@@ -52,8 +53,14 @@ class JsonTransactionsTest {
     @Test
     public void countNumberOfVowelInTextTest() throws IOException {
         String filepath = "/home/user/Desktop/maxproduct/src/chapter14And15/transactionFile/textFile.txt";
-        int expected = 5;
+        int expected = 14;
         assertEquals(expected, JsonTransactions.getNumberOfVowels(filepath));
+    }
+    @Test
+    public void countNumberOfSentencesInTextTest() throws IOException {
+        String filepath = "/home/user/Desktop/maxproduct/src/chapter14And15/transactionFile/textFile.txt";
+        int expected = 3;
+        assertEquals(expected, JsonTransactions.getNumberOfSentences(filepath));
     }
 
 }

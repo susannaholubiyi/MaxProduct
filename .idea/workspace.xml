@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/JsonTransactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/textFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chapter14And15/transactionFile/JsonTransactionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter14And15/PersonComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter14And15/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter14And15/transactionFile/JsonTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/JsonTransactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter14And15/transactionFile/transactions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/chapter14And15/transactionFile/JsonTransactionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/chapter14And15/transactionFile/JsonTransactionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,9 +81,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JsonTransactionsTest.countNumberOfVowelInTextTest">
-    <configuration name="JsonTransactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactions" />
+  <component name="RunManager" selected="JUnit.JsonTransactionsTest">
+    <configuration name="JsonTransactionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -93,6 +90,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="chapter14And15.transactionFile" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactionsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +108,22 @@
       <option name="PACKAGE_NAME" value="chapter14And15.transactionFile" />
       <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactionsTest" />
       <option name="METHOD_NAME" value="countNumberOfDigitsInTextTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTransactionsTest.countNumberOfSentencesInTextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maxProduct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter14And15.transactionFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter14And15.transactionFile" />
+      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactionsTest" />
+      <option name="METHOD_NAME" value="countNumberOfSentencesInTextTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,29 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonTransactionsTest.transactionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maxProduct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter14And15.transactionFile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chapter14And15.transactionFile" />
-      <option name="MAIN_CLASS_NAME" value="chapter14And15.transactionFile.JsonTransactionsTest" />
-      <option name="METHOD_NAME" value="transactionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonTransactionsTest" />
+        <item itemvalue="JUnit.JsonTransactionsTest.testTotalTransactionAmountTest" />
+        <item itemvalue="JUnit.JsonTransactionsTest.countNumberOfSentencesInTextTest" />
         <item itemvalue="JUnit.JsonTransactionsTest.countNumberOfVowelInTextTest" />
         <item itemvalue="JUnit.JsonTransactionsTest.countNumberOfDigitsInTextTest" />
-        <item itemvalue="JUnit.JsonTransactionsTest.testTotalTransactionAmountTest" />
-        <item itemvalue="Application.JsonTransactions" />
-        <item itemvalue="JUnit.JsonTransactionsTest.transactionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,8 @@
       <workItem from="1715333900092" duration="132000" />
       <workItem from="1715336174521" duration="1057000" />
       <workItem from="1715340095337" duration="590000" />
-      <workItem from="1715590734620" duration="16385000" />
+      <workItem from="1715590734620" duration="19577000" />
+      <workItem from="1715617234808" duration="3842000" />
     </task>
     <servers />
   </component>
