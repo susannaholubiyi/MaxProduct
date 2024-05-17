@@ -1,5 +1,4 @@
 package chapter14And15.transactionFile;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.BufferedWriter;
@@ -78,12 +77,12 @@ public class JsonTransactions {
     public static int getNumberOfSentences(String file) throws  IOException{
         Path path = Paths.get(file);
         String sentence = Files.readString(path);
-        int numberOfVowels = 0;
+        int numberOfSentences = 0;
         for (Character character: sentence.toCharArray()){
-            if (character.toString().matches("(.+[\\.|\\?|\\.|\\:])|.+((\\.)\")")){
-                numberOfVowels++;
+            if (character.toString().matches("([.?\\s!]\\s\\w)|^(\\b\\w)")){
+                numberOfSentences++;
             }
         }
-        return numberOfVowels;
+        return numberOfSentences;
     }
 }

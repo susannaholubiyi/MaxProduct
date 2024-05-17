@@ -6,14 +6,15 @@ import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 
 import java.time.LocalDate;
+import java.util.Comparator;
 
 public class Transaction {
-    public Transaction(){
+    public Transaction() {
 
     }
 
     public int getId() {
-        return id +1;
+        return id + 1;
     }
 
     public void setId(int id) {
@@ -65,7 +66,7 @@ public class Transaction {
     private LocalDate date;
 
     @Override
-    public String toString(){
-        return "{id: "+id+" , name: "+name+", amount: "+amount+", type: "+type+", date: "+date+"}";
+    public String toString() {
+        return "{id: " + id + " , name: " + name + ", amount: " + amount + ", type: " + type + ", date: " + date + "}";
     }
 }
