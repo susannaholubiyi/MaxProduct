@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/BiFunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/BiPredicateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/BinaryOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/DoubleToIntFunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/PredicateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/UnaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/DoubleConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/DoublePredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/DoubleUnaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/IntFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/IntUnaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/ObjDoubleConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/ObjIntConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/ToIntBiFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/ToLongBiFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter17/functionalInterface/SupplierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/SupplierExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +89,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnaryOperatorExample">
-    <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.BiPredicateExample" />
+  <component name="RunManager" selected="Application.ObjDoubleConsumerExample">
+    <configuration name="DoublePredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.DoublePredicateExample" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleToIntFunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.DoubleToIntFunctionExample" />
+    <configuration name="DoubleUnaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.DoubleUnaryOperatorExample" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.PredicateExample" />
+    <configuration name="IntUnaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.IntUnaryOperatorExample" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.SupplierExample" />
+    <configuration name="ObjDoubleConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.ObjDoubleConsumerExample" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.UnaryOperatorExample" />
+    <configuration name="ObjIntConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.ObjIntConsumerExample" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UnaryOperatorExample" />
-        <item itemvalue="Application.DoubleToIntFunctionExample" />
-        <item itemvalue="Application.BiPredicateExample" />
-        <item itemvalue="Application.PredicateExample" />
-        <item itemvalue="Application.SupplierExample" />
+        <item itemvalue="Application.ObjDoubleConsumerExample" />
+        <item itemvalue="Application.ObjIntConsumerExample" />
+        <item itemvalue="Application.DoubleUnaryOperatorExample" />
+        <item itemvalue="Application.IntUnaryOperatorExample" />
+        <item itemvalue="Application.DoublePredicateExample" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +193,9 @@
       <workItem from="1715938543717" duration="1085000" />
       <workItem from="1715939714870" duration="93000" />
       <workItem from="1715939883913" duration="3713000" />
-      <workItem from="1715953282715" duration="6132000" />
+      <workItem from="1715953282715" duration="14598000" />
+      <workItem from="1715983846422" duration="4037000" />
+      <workItem from="1716022159633" duration="8337000" />
     </task>
     <servers />
   </component>

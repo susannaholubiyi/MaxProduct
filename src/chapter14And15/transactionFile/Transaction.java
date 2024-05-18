@@ -12,7 +12,21 @@ public class Transaction {
     public Transaction() {
 
     }
+    public Transaction(String amount, String accountNumber) {
+        this.amount = Double.parseDouble(amount);
+        this.accountNumber = accountNumber;
 
+    }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    private String accountNumber;
     public int getId() {
         return id + 1;
     }
