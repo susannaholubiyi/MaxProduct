@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +81,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Example8">
-    <configuration name="Example4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example4" />
+  <component name="RunManager" selected="Application.Example12">
+    <configuration name="Example10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example10" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example5" />
+    <configuration name="Example11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example11" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -111,21 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example6" />
-      <module name="maxProduct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter17.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example7" />
+    <configuration name="Example12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example12" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
@@ -150,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example9" />
+      <module name="maxProduct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter17.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example12" />
+        <item itemvalue="Application.Example11" />
+        <item itemvalue="Application.Example10" />
+        <item itemvalue="Application.Example9" />
         <item itemvalue="Application.Example8" />
-        <item itemvalue="Application.Example7" />
-        <item itemvalue="Application.Example6" />
-        <item itemvalue="Application.Example5" />
-        <item itemvalue="Application.Example4" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +191,7 @@
       <workItem from="1716200651802" duration="591000" />
       <workItem from="1716216112904" duration="6884000" />
       <workItem from="1716227947050" duration="26000" />
+      <workItem from="1716283163887" duration="4917000" />
     </task>
     <servers />
   </component>
