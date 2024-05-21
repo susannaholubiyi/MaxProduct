@@ -51,6 +51,7 @@ public class Transaction {
         return amount;
     }
 
+
     public void setAmount(double amount) {
         this.amount = amount;
     }

@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3674fce3-bc61-4817-af7b-10f66502ebad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/IntConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter17/functionalInterface/IntPredicateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streams/Example8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14And15/transactionFile/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +84,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntPredicateExample">
-    <configuration name="DoubleUnaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.DoubleUnaryOperatorExample" />
+  <component name="RunManager" selected="Application.Example8">
+    <configuration name="Example4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example4" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter17.functionalInterface.*" />
+          <option name="PATTERN" value="chapter17.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.IntConsumerExample" />
+    <configuration name="Example5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example5" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter17.functionalInterface.*" />
+          <option name="PATTERN" value="chapter17.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.IntPredicateExample" />
+    <configuration name="Example6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example6" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter17.functionalInterface.*" />
+          <option name="PATTERN" value="chapter17.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjDoubleConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.ObjDoubleConsumerExample" />
+    <configuration name="Example7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example7" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter17.functionalInterface.*" />
+          <option name="PATTERN" value="chapter17.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjIntConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17.functionalInterface.ObjIntConsumerExample" />
+    <configuration name="Example8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streams.Example8" />
       <module name="maxProduct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter17.functionalInterface.*" />
+          <option name="PATTERN" value="chapter17.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntPredicateExample" />
-        <item itemvalue="Application.IntConsumerExample" />
-        <item itemvalue="Application.ObjDoubleConsumerExample" />
-        <item itemvalue="Application.ObjIntConsumerExample" />
-        <item itemvalue="Application.DoubleUnaryOperatorExample" />
+        <item itemvalue="Application.Example8" />
+        <item itemvalue="Application.Example7" />
+        <item itemvalue="Application.Example6" />
+        <item itemvalue="Application.Example5" />
+        <item itemvalue="Application.Example4" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +190,10 @@
       <workItem from="1715939883913" duration="3713000" />
       <workItem from="1715953282715" duration="14598000" />
       <workItem from="1715983846422" duration="4037000" />
-      <workItem from="1716022159633" duration="9309000" />
+      <workItem from="1716022159633" duration="9967000" />
+      <workItem from="1716200651802" duration="591000" />
+      <workItem from="1716216112904" duration="6884000" />
+      <workItem from="1716227947050" duration="26000" />
     </task>
     <servers />
   </component>
